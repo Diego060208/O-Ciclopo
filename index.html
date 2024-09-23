@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title> O pequeno ciclopo </title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="ciclopo1.jpeg" alt="">
+            <p> Era uma vez um ciclopo feliz, ele queria passear na floresta, mas um rio estava impedindo sua jornada, como ele continuará o seu passeio? </p>
+            <button class="btn-proximo" data-proximo="1"> passe pelo rio </button>
+            <button class="btn-proximo" data-proximo="2"> de a volta no rio </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p> Ele quer atravessar o rio, mas como ele fara isso? </p>
+            <button class="btn-proximo" data-proximo="3"> nadando </button>
+            <button class="btn-proximo" data-proximo="4"> construir uma jangada </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="c4.jpeg" alt="">
+            <p>O ciclopo desistiu pois o caminho era muito grande</p>
+            <button class="btn-proximo" data-proximo="0"> passar pelo rio </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="c2.jpeg" alt="">
+            <p> O ciclopo morreu! </p>
+            <button class="btn-proximo" data-proximo="0"> voltar ao começo </button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="c3.jpeg" alt="">
+            <p> O ciclopo atravessou o rio e seguiu feliz </p>
+            <button class="btn-proximo" data-proximo="0"> voltar ao começo </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
